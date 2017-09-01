@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SpeechSample</string>
+    <string name="bind_service">bind\n service</string>
+    <string name="unbind_service">unbind\n service</string>
+    <string name="start_recognition">start\nrecognition</string>
+    <string name="stop_recognition">stop\nrecognition</string>
+    <string name="start_speaking">start\n speaking</string>
+    <string name="stop_speaking">Stop\n speaking</string>
+    <string name="start_listening">start\n recording</string>
+    <string name="stop_listening">stop\n recording</string>
+    <string name="beamforming_enabled">开启beam forming功能</string>
+    <string name="beamforming_disabled">关闭beam forming功能</string>
+    <string name="tips">提示\n#唤醒词: \"ok loomo\"  \n\n#识别语法:\n 1) [\"播放\" | \"打开\" | \"关闭\" | \"暂停\"][\"音乐\" | \"视频\" | \"电影\"]
+        \n 例如:\"播放音乐\" or \"暂停视频\"\n\n
+        2) [\"关闭\"] {\"你的\" | \"你们的\"} [\"手机\" | \"通讯设备\"] \n
+        例如: \"关闭通讯设备\" or \"关闭你们的手机\n"</string>
+    <string name="status">状态</string>
+    <string name="close_beam_forming">beam forming录音结束</string>
+    <string name="start_beam_forming">开启beam forming录音，录音文件保存在sdcard目录下
+    </string>
+    <string name="disconnect">识别服务和朗读服务断开</string>
+    <string name="recognition_connected">识别服务已连接\n</string>
+    <string name="recognition_disconnected">识别服务已断开\n</string>
+    <string name="speaker_connected">朗读服务已连接\n</string>
+    <string name="speaker_disconnected">朗读服务已断开\n</string>
+    <string name="sound_enabled">开启音效</string>
+    <string name="sound_disabled">关闭音效</string>
+    <string name="wakeup_standby">唤醒开始，请说\"OK loomo\"</string>
+    <string name="wakeup_result">唤醒结果:</string>
+    <string name="wakeup_angle">, 角度</string>
+    <string name="wakeup_error">唤醒错误，原因：:</string>
+    <string name="recognition_start">识别开始，你可以说\"播放音乐\".</string>
+    <string name="recognition_result">识别结果:</string>
+    <string name="confidence">, 置信度:</string>
+    <string name="recognition_error">识别错误:</string>
+    <string name="speech_start">朗读开始</string>
+    <string name="speech_end">朗读结束</string>
+    <string name="speech_error">朗读错误:</string>
+
+
+
+
+</resources>
