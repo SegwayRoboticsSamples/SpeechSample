@@ -206,6 +206,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     Log.e(TAG, "Exception: ", e);
                 }
                 bindSpeakerService = true;
+
+                // set the volume of TTS
+                try {
+                    mSpeaker.setVolume(50);
+                } catch (VoiceException e) {
+                    e.printStackTrace();
+                }
+
                 if (bindRecognitionService) {
                     //both speaker service and recognition service bind, enable function buttons.
                     enableSampleFunctionButtons();
