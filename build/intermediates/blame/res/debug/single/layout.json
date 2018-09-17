@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/jacob/project/github_demos/SpeechSample/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/jacob/project/github_demos/SpeechSample/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/jacob/Desktop/zipFiles/SpeechSample/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/jacob/Desktop/zipFiles/SpeechSample/src/main/res/layout/activity_main.xml"
     }
